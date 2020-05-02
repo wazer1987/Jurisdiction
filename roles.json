@@ -1,0 +1,74 @@
+{ 
+    "_id" : ObjectId("5ea9176b0d1ec619701c3020"), 
+    "routes" : [
+        {
+            "path" : "/", 
+            "name" : "Layout", 
+            "redirect" : "/dashboard", 
+            "component" : "Layout.vue", 
+            "children" : [
+                {
+                    "path" : "dashboard", 
+                    "name" : "pageone", 
+                    "title" : "页面一（老板经理职员都可以看）", 
+                    "meta" : {
+                        "roles" : [
+                            "admin", 
+                            "manager", 
+                            "member"
+                        ]
+                    }, 
+                    "component" : "pages/pageone"
+                }, 
+                {
+                    "path" : "/pagetwo", 
+                    "name" : "pagetwo", 
+                    "title" : "页面二（老板经理都可以看）", 
+                    "meta" : {
+                        "roles" : [
+                            "admin", 
+                            "manager"
+                        ]
+                    }, 
+                    "component" : "pages/pagetwo"
+                }, 
+                {
+                    "path" : "/pagethree", 
+                    "name" : "pagethree", 
+                    "title" : "页面三（老板经理都可以看）", 
+                    "meta" : {
+                        "roles" : [
+                            "admin", 
+                            "manager"
+                        ]
+                    }, 
+                    "component" : "pages/pagethree"
+                }, 
+                {
+                    "path" : "/pagefour", 
+                    "name" : "pagefour", 
+                    "title" : "页面四（老板经理职员都可以看）", 
+                    "meta" : {
+                        "roles" : [
+                            "admin", 
+                            "manager", 
+                            "member"
+                        ]
+                    }, 
+                    "component" : "pages/pagefour"
+                }, 
+                {
+                    "path" : "/pagefive", 
+                    "name" : "pagefive", 
+                    "title" : "页面五（只有老板可以看）", 
+                    "meta" : {
+                        "roles" : [
+                            "admin"
+                        ]
+                    }, 
+                    "component" : "pages/pagefive"
+                }
+            ]
+        }
+    ]
+}

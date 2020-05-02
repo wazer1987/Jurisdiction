@@ -1,0 +1,36 @@
+{ 
+    "_id" : ObjectId("5ea4ee1100d7c90ac09efed4"), 
+    "nickname" : "老板权限", 
+    "email" : "1052101962@qq.com", 
+    "password" : "550e1bafe077ff0b0b67f4e32f29d751", 
+    "roles" : [
+        "admin"
+    ], 
+    "createdAt" : ISODate("2020-04-26T02:12:33.229+0000"), 
+    "updatedAt" : ISODate("2020-04-29T01:59:15.546+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5eaa63cc3387461c3cb54b58"), 
+    "roles" : [
+        "manager"
+    ], 
+    "nickname" : "经理权限", 
+    "email" : "81902461@qq.com", 
+    "password" : "550e1bafe077ff0b0b67f4e32f29d751", 
+    "createdAt" : ISODate("2020-04-30T05:36:12.184+0000"), 
+    "updatedAt" : ISODate("2020-04-30T05:36:12.184+0000"), 
+    "__v" : NumberInt(0)
+}
+{ 
+    "_id" : ObjectId("5eacceb38fcd7e2db8a7220c"), 
+    "roles" : [
+        "member"
+    ], 
+    "nickname" : "职员权限", 
+    "email" : "wangzhengvsxiaoxiu@126.com", 
+    "password" : "550e1bafe077ff0b0b67f4e32f29d751", 
+    "createdAt" : ISODate("2020-05-02T01:36:51.208+0000"), 
+    "updatedAt" : ISODate("2020-05-02T01:36:51.208+0000"), 
+    "__v" : NumberInt(0)
+}
